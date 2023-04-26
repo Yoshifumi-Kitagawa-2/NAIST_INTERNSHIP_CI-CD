@@ -1,5 +1,6 @@
 import unittest
 import os
+
 from NAIST_lecture.CSVPrinter import CSVPrinter
 
 def setUpModule():
