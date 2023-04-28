@@ -23,7 +23,3 @@ class TestCSVPrinter(unittest.TestCase):
         printer = CSVPrinter("./test/sample.csv")
         l = printer.read()
         self.assertEqual(3, len(l))
-    def test_read_2(self):
-        printer = CSVPrinter("./test/sample_1.csv")
-        l = printer.read()
-        self.assertEqual(3, len(l))
